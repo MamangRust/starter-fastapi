@@ -13,7 +13,7 @@ class Settings:
     POSTGRES_SERVER: str = os.getenv("POSTGRES_SERVER", "localhost")
     POSTGRES_PORT: str = os.getenv("POSTGRES_PORT", 5432)
     POSTGRES_DB: str = os.getenv("POSTGRES_DB", "tdd")
-    DATABASE_URL = "postgresql://ehhsctbn:zaX8oRbkyifRm67LKkaRWlnvNA5L1yaW@rain.db.elephantsql.com/ehhsctbn"
+    DATABASE_URL = "postgresql://pxg2lhtk5z:ewOJjvsdD5uGP7RznGfGbkc9oPdgJbLU@pg-csigyhvd.apsoutheast1.db.lyr.id:21148/fbfzhjqmjzbvr800"
 
     JWT_PUBLIC_KEY: str = os.getenv("JWT_PUBLIC_KEY")
     JWT_PRIVATE_KEY: str = os.getenv("JWT_PRIVATE_KEY")
