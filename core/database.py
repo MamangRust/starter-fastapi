@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker
 from .config import settings
 
 
-if True:
+if settings.USE_SQLITE_DB == "True":
     SQLALCHAMY_DATABASE_URL = "sqlite:///./midtrans.db"
     engine = create_engine(
         SQLALCHAMY_DATABASE_URL, connect_args={"check_same_thread": False}
